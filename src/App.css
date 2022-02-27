@@ -1,0 +1,584 @@
+.Container{
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Header {
+  width: 100%;
+  height: 60px;
+  background-color: #0B1320;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+
+.HeaderWrapper {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.Nav{
+  display: flex;
+  width: 700px;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+
+.Logo {
+  width: 120px;
+}
+
+
+.HeroHolder {
+  height: 450px;
+  width: 100%;
+  background-color: #C2B0DA;
+  display: flex;
+  background: linear-gradient(to right bottom, rgba(233,224,245,0.3), rgba(rgb(158,131,194)) ) ;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.HeroWrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+
+.Baby{
+  width: 490px;
+  height: 450px;
+  margin-bottom: -15px;
+}
+
+
+.Left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+.Heads {
+  font-size: 65px;
+  font-weight: 900;
+
+}
+
+
+.PMan {
+  margin-top: -20px;
+}
+
+.but {
+  width: 55%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around; 
+  text-align:start;
+}
+
+.but1 {
+  background-color: #5D35D7;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 16px;
+
+}
+
+
+.but2 {
+  background-color: #C4B3DC;
+  border-width: 1px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+
+}
+
+
+.Secondsection {
+  height: 600px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+}
+
+.Secondsectionwrapper {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+ 
+  
+}
+
+.Section2left {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Image2 {
+  width: 400px;
+  height: 500px; 
+}
+
+.Section2right {
+  width: 60%;
+  height: 80%;
+  
+}
+
+.Sectn2but {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 50%;
+  
+}
+
+.Sectn2but > button {
+  width: 300px;
+  height: 60px;
+  background-color: F7F7F7;
+  color: black;
+  border: none;
+  border-radius: 4pt;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: start;
+  
+}
+
+.Thirdsection {
+  background-color: #0B1320;
+  height: 800px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column ;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Thirdsectiontop {
+  width: 80%;
+  height: 20%;
+  color: white;
+  text-align: center; 
+}
+
+.Thirdsectionb {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.Thirdsectionboxb {
+  width: 100%;
+  height: 400px;
+
+}
+
+.Thirdsectionboxb1 {
+  width: 100%;
+  height: 400px;
+
+}
+
+.Icon1 {
+ width: 80px;
+ 
+}
+
+.Icon2 {
+  width: 80px;
+  
+ }
+
+.Icon3 {
+  width: 80px;
+  
+ }
+
+.Icon4 {
+  width: 80px;
+ 
+ }
+
+ .Fourthsection {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+}
+
+.Fourthsectionwrapper {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+
+ 
+}
+.Fourthspace {
+  height: 60px;
+}
+.Fourthsectionbottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 250px;
+
+}
+
+.Fourthsectionbottom > div >img {
+  width: 160px;
+  height:50px
+
+}
+
+.Fifthsection {
+  height: 500px;
+  width: 100%;
+  background-color: #f7f7f7;
+  color: #0B1320;
+  display: flex;
+  flex-direction: column ;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.Fifthwrapper {
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  font-size: 25px;
+  color: #0B1320
+  
+  
+
+}
+
+.Fifthheader {
+  height: 100px;
+  font-size: 35px;
+
+}
+
+.Fifthheader1 {
+  font-weight: bold;
+  font-size: 22px;
+
+}
+
+.Sixthsection{
+  background-color: white;
+  color: #0B1320;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: Bold;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Sixthsectionwrapper {
+  width:80%
+
+}
+
+.SixthTop{
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  background-color: white;
+
+
+}
+
+
+.MainContainer{
+  display: flex;
+ justify-content: space-around;
+
+
+ width: 100%;
+ height: 70%;
+ text-align: left;
+}
+
+
+.ImageContainer{
+ /* display: flex;
+ justify-content: space-around; */
+ width: 60%;
+ height: 70%;
+ 
+
+}
+
+
+.HouseContainer{
+  width: 100%
+
+
+}
+
+
+.Images{
+  width: 280px;
+}
+
+.Images1 {
+  width:400px;
+  height: 280px
+}
+
+
+.Sixthparagraph{
+  font-weight:lighter
+
+
+}
+
+
+.SixthButtom{
+  background-color: #0B1320;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: white;
+  display: inline-block;
+  font-size: 18px;
+}
+
+
+.Seventh{
+
+
+  background-color:#0B1320;
+  height: 70vh;
+  width: 100%;
+  position: relative;
+
+
+}
+
+
+.SeventhTop{
+
+
+  text-align: center;
+  width: 100%;
+  height: 30%;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  /* background-color: blue; */
+  font-size: 35px;
+  color: white;
+  padding: 15px 32px;
+  /* position: relative; */
+}
+
+
+
+
+.SeventhHeader{
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+
+
+}
+
+
+.SeventhHeaderPara{
+  font-weight: 100px;
+  font-size: 20px;
+  color: white;
+
+
+}
+
+
+.SeventhHeader1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+}
+
+
+.SeventhButton{
+  background-color: white;
+  border: none;
+  color: #0B1320;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: white;
+  display: inline-block;
+  font-size: 18px;
+  position: absolute;
+  border-radius: 4px;
+}
+
+
+.LastPage{
+  height: 450px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+
+  font-size: 14px;
+}
+
+
+.FirstColumn{
+  display: flex;
+  flex-direction:column ;
+  padding-top: 5%;
+
+}
+
+
+.SecondColumn{
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+
+
+}
+
+
+.Company{
+  font-size: medium;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.ThirdColumn{
+  /* display: flex; */
+  padding: 4%;
+
+
+}
+
+
+.HouseLastLogo{
+  display: flex;
+  /* flex-direction: ;
+  */
+  justify-content: flex-end;
+}
+
+
+.LastLogo {
+  width: 40px;
+}
+
+
+.Link{
+  color: black;
+  text-decoration: none;
+}
+
+
+.Footer{
+  height: 10vh;
+  width: 100%;
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.FooterContent{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+  font-weight:normal;
+}
+
+.BottomNav {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  font-weight: lighter;
+}
+
+
+.FooterButtom{
+  padding-top: 5px;
+
+
+}
+
+
+.Fixed{
+  display: flex;
+  flex-direction: row-reverse;
+  position: sticky;
+  bottom: 50px;
+  right: 10px;
+}
+
+
+.FixedButton{
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: white;
+  display: inline-block;
+  font-size: 10px;
+  
+}
+
+
